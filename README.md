@@ -1,4 +1,4 @@
-# LevelDB in Java
+!#LevelDB in Java
 
 This is a rewrite (port) of [LevelDB](http://code.google.com/p/leveldb/) in
 Java.  This goal is to have a feature complete implementation that is within
@@ -18,7 +18,7 @@ been established.
 Recommended Package imports:
 
 ```java
-import org.iq80.leveldb.*;
+import org.iq80.leveldb.#;
 import static org.iq80.leveldb.impl.Iq80DBFactory.*;
 import java.io.*;
 ```
@@ -172,3 +172,4 @@ factory.destroy(new File("example"), options);
 
 * [ActiveMQ Apollo](http://activemq.apache.org/apollo/): Defaults to using leveldbjni, but falls 
   back to this port if the jni port is not available on your platform.
+ 
